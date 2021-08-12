@@ -30,8 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ModelsModule/Classes/Model/*'
-  s.source_files = 'ModelsModule/Classes/ProductTableView/*'
+  s.source_files = 'ModelsModule/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ModelsModule' => ['ModelsModule/Assets/*.png']
