@@ -25,8 +25,6 @@
 		C832D2A489511B1E74A297CCD6CAFE8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D5117F1D26C5C3B80084B072 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5117F1C26C5C3B80084B072 /* ShoppingCart.swift */; };
 		D5117F1F26C5C3ED0084B072 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5117F1E26C5C3ED0084B072 /* Product.swift */; };
-		D5117F4726C5D1920084B072 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5117F4526C5D1920084B072 /* ProductTableViewController.swift */; };
-		D5117F4826C5D1920084B072 /* ProductTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5117F4626C5D1920084B072 /* ProductTableViewController.xib */; };
 		D5117F5126C5D74C0084B072 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5117F4F26C5D74C0084B072 /* ProductTableViewController.swift */; };
 		D5117F5226C5D74C0084B072 /* ProductTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5117F5026C5D74C0084B072 /* ProductTableViewController.xib */; };
 /* End PBXBuildFile section */
@@ -59,8 +57,6 @@
 		A1119A1578559E403B9D7F409C8E153A /* Pods-ModelsModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModelsModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5117F1C26C5C3B80084B072 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShoppingCart.swift; path = ../ModelsModule/Classes/Model/ShoppingCart.swift; sourceTree = "<group>"; };
 		D5117F1E26C5C3ED0084B072 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../ModelsModule/Classes/Model/Product.swift; sourceTree = "<group>"; };
-		D5117F4526C5D1920084B072 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
-		D5117F4626C5D1920084B072 /* ProductTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewController.xib; sourceTree = "<group>"; };
 		D5117F4F26C5D74C0084B072 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductTableViewController.swift; path = ../ModelsModule/Classes/ProductTableView/ProductTableViewController.swift; sourceTree = "<group>"; };
 		D5117F5026C5D74C0084B072 /* ProductTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductTableViewController.xib; path = ../ModelsModule/Classes/ProductTableView/ProductTableViewController.xib; sourceTree = "<group>"; };
 		F81BDB6023E4E8F466168DD1A0008F87 /* Pods-ModelsModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModelsModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +105,6 @@
 		9525ECC3772A6961A5E8EF0807B7D6F8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D5117F4426C5D1710084B072 /* Views */,
 				E1E26E142311A2154149756345762455 /* ModelsModule */,
 			);
 			name = "Development Pods";
@@ -148,15 +143,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D5117F4426C5D1710084B072 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D5117F4526C5D1920084B072 /* ProductTableViewController.swift */,
-				D5117F4626C5D1920084B072 /* ProductTableViewController.xib */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		D5117F4D26C5D70F0084B072 /* ProductTableView */ = {
@@ -276,7 +262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5117F4826C5D1920084B072 /* ProductTableViewController.xib in Resources */,
 				D5117F5226C5D74C0084B072 /* ProductTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +275,6 @@
 			files = (
 				1BAEF38888EC0577499126D65E9EC845 /* Pods-ModelsModule_Tests-dummy.m in Sources */,
 				D5117F1D26C5C3B80084B072 /* ShoppingCart.swift in Sources */,
-				D5117F4726C5D1920084B072 /* ProductTableViewController.swift in Sources */,
 				D5117F1F26C5C3ED0084B072 /* Product.swift in Sources */,
 				D5117F5126C5D74C0084B072 /* ProductTableViewController.swift in Sources */,
 			);
