@@ -8,9 +8,9 @@
 import Foundation
 
 public struct Product {
-    let id          : Int?
-    let title       : String?
-    let price       : Double?
+    public let id          : Int?
+    public let title       : String?
+    public let price       : Double?
     
     public init(id: Int, title: String, price: Double) {
         self.id     = id
