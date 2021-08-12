@@ -61,8 +61,8 @@
 		D5117F1E26C5C3ED0084B072 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ModelsModule/Classes/Product.swift; sourceTree = "<group>"; };
 		D5117F4526C5D1920084B072 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 		D5117F4626C5D1920084B072 /* ProductTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewController.xib; sourceTree = "<group>"; };
-		D5117F4926C5D5030084B072 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		D5117F4A26C5D5030084B072 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		D5117F4926C5D5030084B072 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = ModelsModule/Classes/TestViewController.swift; sourceTree = "<group>"; };
+		D5117F4A26C5D5030084B072 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TestViewController.xib; path = ModelsModule/Classes/TestViewController.xib; sourceTree = "<group>"; };
 		F81BDB6023E4E8F466168DD1A0008F87 /* Pods-ModelsModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModelsModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
