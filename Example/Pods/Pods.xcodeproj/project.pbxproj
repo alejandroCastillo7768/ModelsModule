@@ -57,12 +57,12 @@
 		9A1A81683125A9303196434FF71E603F /* Pods-ModelsModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModelsModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1119A1578559E403B9D7F409C8E153A /* Pods-ModelsModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModelsModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5117F1C26C5C3B80084B072 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
-		D5117F1E26C5C3ED0084B072 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D5117F1C26C5C3B80084B072 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShoppingCart.swift; path = ../ModelsModule/Classes/Model/ShoppingCart.swift; sourceTree = "<group>"; };
+		D5117F1E26C5C3ED0084B072 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../ModelsModule/Classes/Model/Product.swift; sourceTree = "<group>"; };
 		D5117F4526C5D1920084B072 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 		D5117F4626C5D1920084B072 /* ProductTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewController.xib; sourceTree = "<group>"; };
-		D5117F4F26C5D74C0084B072 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
-		D5117F5026C5D74C0084B072 /* ProductTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewController.xib; sourceTree = "<group>"; };
+		D5117F4F26C5D74C0084B072 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductTableViewController.swift; path = ../ModelsModule/Classes/ProductTableView/ProductTableViewController.swift; sourceTree = "<group>"; };
+		D5117F5026C5D74C0084B072 /* ProductTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductTableViewController.xib; path = ../ModelsModule/Classes/ProductTableView/ProductTableViewController.xib; sourceTree = "<group>"; };
 		F81BDB6023E4E8F466168DD1A0008F87 /* Pods-ModelsModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModelsModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
