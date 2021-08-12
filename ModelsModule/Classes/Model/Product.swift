@@ -12,7 +12,7 @@ public struct Product {
     let title       : String?
     let price       : Double?
     
-    public init(id: Int, title: String, price: String) {
+    public init(id: Int, title: String, price: Double) {
         self.id     = id
         self.title  = title
         self.price  = price

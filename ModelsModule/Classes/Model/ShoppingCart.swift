@@ -12,6 +12,8 @@ public final class ShoppingCart {
     static let shared = ShoppingCart()
     var cart   : [Product] = []
     
+    public init() { }
+    
     func getCart() -> [Product] {
         return self.cart
     }
