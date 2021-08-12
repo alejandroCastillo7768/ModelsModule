@@ -7,8 +7,14 @@
 
 import Foundation
 
-struct Product {
+public struct Product {
     let id          : Int?
     let title       : String?
     let price       : Double?
+    
+    public init(id: Int, title: String, price: String) {
+        self.id     = id
+        self.title  = title
+        self.price  = price
+    }
 }
