@@ -7,16 +7,16 @@
 
 import Foundation
 
-final class ShoppingCart {
+public final class ShoppingCart {
     
     static let shared = ShoppingCart()
-    public var cart   : [Product] = []
+    var cart   : [Product] = []
     
-    public func getCart() -> [Product] {
+    func getCart() -> [Product] {
         return self.cart
     }
     
-    public func addProductToCart(product: Product) {
+    func addProductToCart(product: Product) {
         self.cart.append(product)
     }
 }
