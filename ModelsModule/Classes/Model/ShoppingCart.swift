@@ -9,16 +9,24 @@ import Foundation
 
 public final class ShoppingCart {
     
-    static let shared = ShoppingCart()
-    var cart   : [Product] = []
+    public static let shared = ShoppingCart()
+    public var cart          : [Product] = []
+    
+    public var totalPrice    : Double {
+        var result = 0 as Double
+        for product in cart {
+            result += product.price ?? 0
+        }
+        return result
+    }
     
     public init() { }
     
-    func getCart() -> [Product] {
+    public func getCart() -> [Product] {
         return self.cart
     }
     
-    func addProductToCart(product: Product) {
+    public func addProductToCart(product: Product) {
         self.cart.append(product)
     }
 }
