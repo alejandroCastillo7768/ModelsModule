@@ -21,8 +21,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		92245989D5DAEE509CBA222A /* ModelsModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ModelsModule.podspec; path = ../ModelsModule.podspec; sourceTree = "<group>"; };
 		9CB5C54C61CE459B8C8576D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D535150126C6C28500A7089F /* ShoppingCartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTest.swift; sourceTree = "<group>"; };
-		D535150326C6DB1600A7089F /* ProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTests.swift; sourceTree = "<group>"; };
+		D535150126C6C28500A7089F /* ShoppingCartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShoppingCartTest.swift; path = ../../Tests/ShoppingCartTest.swift; sourceTree = "<group>"; };
+		D535150326C6DB1600A7089F /* ProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductTests.swift; path = ../../Tests/ProductTests.swift; sourceTree = "<group>"; };
 		EE197BCFB7C77B187BFB0AD6 /* Pods-ModelsModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModelsModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-ModelsModule_Tests/Pods-ModelsModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FDB1B40B028F56D075292E7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
