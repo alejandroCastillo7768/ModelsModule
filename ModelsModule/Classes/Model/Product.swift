@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import MapKit
 
 public struct Product {
     public let id          : Int?
